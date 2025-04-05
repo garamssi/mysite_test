@@ -60,6 +60,8 @@ cover/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
+media/
+staticfiles/
 
 # Flask stuff:
 instance/
@@ -172,3 +174,33 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Django specific additions
+media/
+staticfiles/
+*.sqlite3
+*.pyc
+collected_static/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# VS Code
+.vscode/
+
+# Django REST framework
+api-doc/
+
+# Secret keys
+*.pem
+*.key
+
+# Logs
+logs/
+
+# Migration backups
+*.bak
+
+# Node modules (if using JavaScript/TypeScript frontend)
+node_modules/
