@@ -6,9 +6,6 @@
 ### 로컬 sqllite DB 비밀번호
 pdw90 / 1
 
-#
+
 pip install django-crispy-forms
-
-pip install django-crispy-forms crispy-bootstrap4
-
 pip install django-markdownx
