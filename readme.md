@@ -9,5 +9,3 @@ pdw90 / 1
 
 pip install django-crispy-forms
 pip install django-markdownx
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'mysite_test.mysite.settings')
